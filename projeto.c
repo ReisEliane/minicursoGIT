@@ -18,10 +18,17 @@ int multiplicacao(int a, int b)
 	return mult;
 }
 
+int divisao(int a, int b)
+{
+	int div = a / b;
+	return div;
+	
+}
 int main()
 {
 	printf ("A soma dos dois numeros e: %d\n",soma(5,5));
 	printf ("A subtracao dos dois numeros e: %d\n",subtracao(5,2));
 	printf("A multiplicacao dos numeros e: %d\n",multiplicacao(10,5));
+	printf("A divisao dos numeros e: %d\n",divisao(10,5));
 	return 0;
 }
